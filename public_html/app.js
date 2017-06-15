@@ -331,7 +331,7 @@ function callFoodPairings() {
             url: 'http://api.brewerydb.com/v2/beers?key=075d4da050ae5fd39db3ded4fd982c92&name=' + beerSelected
             // url: 'http://api.brewerydb.com/v2/beers?key=46d711ef3eb4ba9c1dd81467cd6784e5&name=' + beerSelected
         },
-        url: './handlers/proxy.php',
+        url: './handlers/brewery_proxy.php',
         method: 'GET',
         dataType: 'json',
         success: function (result) {
