@@ -278,7 +278,7 @@ function getLocation() {
             showLocationAlert();
         };
         var error = function() {
-            modalAlert();
+            showLocationAlert();
         };
         navigator.geolocation.getCurrentPosition(geoSuccess, error, options);
     } else {
